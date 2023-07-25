@@ -1,0 +1,52 @@
+.Class_Section {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 2 * 1.5rem);
+    max-width: 69rem;
+  }
+  .Class_Content {
+    background-color: #1967d2;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    overflow: hidden;
+  }
+  .Class_Section1 {
+    height: 15rem;
+    position: relative;
+    width: 110%;
+  }
+  .Class_BgImage {
+    background-image: url(../../images/10.avif);
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  .Class_Text {
+    position: relative;
+    padding: 1.5rem;
+  }
+  .Class_Heading {
+    font-family: Roboto, Arial;
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  .Class_Under {
+    font-family: Roboto, Arial;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    color: #fff;
+    margin-left: 0.2rem;
+  }
+  .Class_Id {
+    font-size: 0.85rem;
+    color: #fff;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 0.05rem;
+  }
+  .Class_Announce {
+    margin-top: 1rem;
+  }

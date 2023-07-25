@@ -1,0 +1,52 @@
+.List {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  margin-right: 1.2rem;
+  overflow: hidden;
+  position: relative;
+  width: 18rem;
+  background-color: #fff;
+  border: 0.06rem solid #dadce0;
+  border-radius: 1rem;
+}
+.Image {
+  background-image: url(../../images/5.avif);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Upper {
+  text-decoration: none;
+}
+.Delimiter {
+  position: relative;
+}
+.Content {
+  height: 5rem;
+  padding: 1rem ;
+  position: relative;
+}
+.Name {
+  color: black;
+  text-decoration: none;
+}
+.Name h2 {
+  font-weight: 400;
+}
+.Name h2:hover {
+  text-decoration: underline;
+}
+.Owner {
+  margin-top: 60px;
+  color: white;
+  font-size: 18px !important;
+}
+.Bottom {
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
